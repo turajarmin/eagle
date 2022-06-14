@@ -1,0 +1,410 @@
+@media only screen and (min-width: 1200px) {
+    div.menu{
+        width: 100%;
+        height: 40px;
+        background-color: #1b1b1b;
+        transition: all 300ms linear;
+    }
+    div.menu>nav{
+        width: inherit;
+        height: inherit;
+    }
+    div.menu>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        text-align: center;
+    }
+    div.menu>nav>ul>li{
+        width: auto;
+        height: inherit;
+        display: inline-block;
+    }
+    div.menu>nav>ul>li>a{
+        width: auto;
+        height: inherit;
+        display: block;
+        padding: 0 10px;
+        line-height: 40px;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        transition: all 300ms linear;
+    }
+    div.menu>nav>ul>li>a:hover{
+        box-shadow: 1px 0 1px whitesmoke;
+    }
+    div.hamburger{
+        width: 40px;
+        height: 40px;
+        background-color: gray;
+        display: none;
+    }
+    div.menuHamburger{
+        display: none;
+    }
+    #close,#menu{
+        display: none;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    div.menu{
+        width: 100%;
+        height: 40px;
+        background-color: #2b2b2b;
+        transition: all 300ms linear;
+    }
+    div.menu>nav{
+        width: inherit;
+        height: inherit;
+    }
+    div.menu>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        text-align: center;
+    }
+    div.menu>nav>ul>li{
+        width: auto;
+        height: inherit;
+        display: inline-block;
+    }
+    div.menu>nav>ul>li>a{
+        width: auto;
+        height: inherit;
+        display: block;
+        padding: 0 10px;
+        line-height: 40px;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        transition: all 300ms linear;
+    }
+    div.menu>nav>ul>li>a:hover{
+        box-shadow: 1px 0 1px whitesmoke;
+    }
+    div.hamburger{
+        width: 40px;
+        height: 40px;
+        background-color: gray;
+        display: none;
+    }
+    div.menuHamburger{
+        display: none;
+    }
+    #close,#menu{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    div.menu{
+        width: 100%;
+        height: 40px;
+        background-color: #3b3b3b;
+        transition: all 300ms linear;
+    }
+    div.menu>nav{
+        width: inherit;
+        height: inherit;
+    }
+    div.menu>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        text-align: center;
+    }
+    div.menu>nav>ul>li{
+        width: auto;
+        height: inherit;
+        display: inline-block;
+    }
+    div.menu>nav>ul>li>a{
+        width: auto;
+        height: inherit;
+        display: block;
+        padding: 0 10px;
+        line-height: 40px;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        transition: all 300ms linear;
+    }
+    div.menu>nav>ul>li>a:hover{
+        box-shadow: 1px 0 1px whitesmoke;
+    }
+    div.hamburger{
+        width: 40px;
+        height: 40px;
+        background-color: gray;
+        display: none;
+    }
+    div.menuHamburger{
+        display: none;
+    }
+    #close,#menu{
+        display: none;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+    div.menu{
+        width: 100%;
+        display: none;
+        background-color: darkolivegreen;
+        transition: all 300ms linear;
+    }
+    div.menu>nav{
+        width: inherit;
+        height: inherit;
+    }
+    div.menu>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        text-align: center;
+    }
+    div.menu>nav>ul>li{
+        width: auto;
+        height: inherit;
+        display:block;
+    }
+    div.menu>nav>ul>li>a{
+        width: auto;
+        height: inherit;
+        display: block;
+        padding: 0 10px;
+        line-height: 40px;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        transition: all 300ms linear;
+    }
+    div.menu>nav>ul>li>a:hover{
+        background-color: #5b5b5b;
+    }
+    div.hamburger{
+        width: 40px;
+        height: 40px;
+        background-color: gray;
+        display: block;
+        margin:5px 5px;
+        position: relative;
+        cursor: pointer;
+        padding: 10px 0 0 0;
+    }
+    div.hamburger>div{
+        width: 80%;
+        border: 2px solid black;
+        margin: 2px auto;
+    }
+    #menu{
+        display: none;
+    }
+    label[for=menu]{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: indigo;
+        position: absolute;
+        top:0;
+        left:0;
+        opacity: 0;
+    }
+    div.menuHamburger{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        top:0;
+        left:-100%;
+        transition: all 300ms ease;
+    }
+    div.menuHamburger>nav{
+        width: inherit;
+        height: inherit;
+    }
+    div.menuHamburger>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        text-align: center;
+    }
+    div.menuHamburger>nav>ul>li{
+        width: auto;
+        height: 50px;
+        display:block;
+    }
+    div.menuHamburger>nav>ul>li>a{
+        width: auto;
+        height: inherit;
+        border-bottom: 1px solid lightgray;
+        display: block;
+        padding: 0 10px;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        line-height: 50px;
+        transition: all 300ms linear;
+    }
+    div.menuHamburger>nav>ul>li>a:hover{
+        background-color: #5b5b5b;
+    }
+    #menu:checked ~ div.menuHamburger{
+        left:0;
+    }
+    #close{
+        display: none;
+    }
+    div.menuHamburger>label{
+        display:block;
+        width: 50px;
+        height: 50px;
+        background-color: crimson;
+        position: absolute;
+        right: 0;
+        top:0;
+        font-size: 30px;
+        text-align: center;
+        line-height: 50px;
+        color: whitesmoke;
+        font-family: AKBAR;
+        cursor: pointer;
+    }
+    #close:checked ~ div.menuHamburger{
+        left: -100%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    div.menu{
+        width: 100%;
+        display: none;
+        background-color: indigo;
+        transition: all 300ms linear;
+    }
+    div.menu>nav{
+        width: inherit;
+        height: inherit;
+    }
+    div.menu>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        text-align: center;
+    }
+    div.menu>nav>ul>li{
+        width: auto;
+        height: inherit;
+        display:block;
+    }
+    div.menu>nav>ul>li>a{
+        width: auto;
+        height: inherit;
+        display: block;
+        padding: 0 10px;
+        line-height: 40px;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        transition: all 300ms linear;
+    }
+    div.menu>nav>ul>li>a:hover{
+        background-color: #5b5b5b;
+    }
+    div.hamburger{
+        width: 40px;
+        height: 40px;
+        background-color: gray;
+        display: block;
+        margin:5px 5px;
+        position: relative;
+        cursor: pointer;
+        padding: 10px 0 0 0;
+    }
+    div.hamburger>div{
+        width: 80%;
+        border: 2px solid black;
+        margin: 2px auto;
+    }
+    #menu{
+        display: none;
+    }
+    label[for=menu]{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: indigo;
+        position: absolute;
+        top:0;
+        left:0;
+        opacity: 0;
+    }
+    div.menuHamburger{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        top:0;
+        left:-100%;
+        transition: all 300ms ease;
+    }
+    div.menuHamburger>nav{
+        width: inherit;
+        height: inherit;
+    }
+    div.menuHamburger>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        text-align: center;
+    }
+    div.menuHamburger>nav>ul>li{
+        width: auto;
+        height: 50px;
+        display:block;
+    }
+    div.menuHamburger>nav>ul>li>a{
+        width: auto;
+        height: inherit;
+        border-bottom: 1px solid lightgray;
+        display: block;
+        padding: 0 10px;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        line-height: 50px;
+        transition: all 300ms linear;
+    }
+    div.menuHamburger>nav>ul>li>a:hover{
+        background-color: #5b5b5b;
+    }
+    #menu:checked ~ div.menuHamburger{
+        left:0;
+    }
+    #close{
+        display: none;
+    }
+    div.menuHamburger>label{
+        display:block;
+        width: 50px;
+        height: 50px;
+        background-color: crimson;
+        position: absolute;
+        right: 0;
+        top:0;
+        font-size: 30px;
+        text-align: center;
+        line-height: 50px;
+        color: whitesmoke;
+        font-family: AKBAR;
+        cursor: pointer;
+    }
+    #close:checked ~ div.menuHamburger{
+        left: -100%;
+    }
+}
