@@ -1,0 +1,150 @@
+@media only screen and (min-width:1200px) {
+    div.parallax{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(to left, rgba(245, 72, 190, 0.1), rgba(94, 24, 234, 0.2)),  url("../../images/igle.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    div.parallax>div.slogan{
+        width: 60%;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-radius: 10px;
+        box-shadow: 5px 5px 2px black;
+    }
+    div.parallax>div.slogan>h1{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    div.parallax>div.slogan>p{
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width:990px) and (max-width: 1200px) {
+    div.parallax{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(to left, rgba(245, 72, 190, 0.1), rgba(94, 24, 234, 0.2)),  url("../../images/igle.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    div.parallax>div.slogan{
+        width: 70%;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-radius: 10px;
+        box-shadow: 5px 5px 2px black;
+    }
+    div.parallax>div.slogan>h1{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    div.parallax>div.slogan>p{
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 990px) {
+    div.parallax{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(to left, rgba(245, 72, 190, 0.1), rgba(94, 24, 234, 0.2)),  url("../../images/igle.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    div.parallax>div.slogan{
+        width: 80%;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-radius: 10px;
+        box-shadow: 5px 5px 2px black;
+    }
+    div.parallax>div.slogan>h1{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    div.parallax>div.slogan>p{
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width:540px) and (max-width: 768px) {
+    div.parallax{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(to left, rgba(245, 72, 190, 0.1), rgba(94, 24, 234, 0.2)),  url("../../images/igle.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    div.parallax>div.slogan{
+        width: 80%;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-radius: 10px;
+        box-shadow: 5px 5px 2px black;
+    }
+    div.parallax>div.slogan>h1{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    div.parallax>div.slogan>p{
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:540px) {
+    div.parallax{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(to left, rgba(245, 72, 190, 0.1), rgba(94, 24, 234, 0.2)),  url("../../images/igle.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    div.parallax>div.slogan{
+        width: 90%;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-radius: 10px;
+        box-shadow: 5px 5px 2px black;
+    }
+    div.parallax>div.slogan>h1{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    div.parallax>div.slogan>p{
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
